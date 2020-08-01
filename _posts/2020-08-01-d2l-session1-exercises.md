@@ -3,6 +3,7 @@ toc: false
 layout: post
 hide: false
 search_exclude: true
+comments: true
 description: Exercises solution for Session 1.
 categories: [D2LSG]
 title: D2L Study Group Session 1 Exercises

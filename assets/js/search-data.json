@@ -14,7 +14,7 @@
       "page1": {
           "title": "About Me",
           "content": "My name is Haidar Almubarak, I’m interested in applied computer vision and machine learning. . Trying to learn a new thing everyday. .",
-          "url": "https://haidar13.github.io/blog.almubarak.info/about/",
+          "url": "https://haidar13.github.io/about/",
           "relUrl": "/about/",
           "date": ""
       }
@@ -46,7 +46,7 @@
       ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://haidar13.github.io/blog.almubarak.info/robots.txt",
+          "url": "https://haidar13.github.io/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }

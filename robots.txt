@@ -1,1 +1,1 @@
-Sitemap: https://haidar13.github.io/blog.almubarak.info/sitemap.xml
+Sitemap: https://haidar13.github.io/sitemap.xml

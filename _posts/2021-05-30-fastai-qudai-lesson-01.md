@@ -5,7 +5,7 @@ hide: false
 search_exclude: false
 comments: true
 description: Answers to Fastai questionnaire in chapter 01
-categories: [SCNF]
+categories: [fastai]
 title: Fastai lesson 01 Questionnaire
 ---
 

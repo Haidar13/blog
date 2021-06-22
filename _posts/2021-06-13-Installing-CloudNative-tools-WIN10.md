@@ -21,7 +21,7 @@ I am using Windows 10 machine and there is a package manager called [chocolatey]
 
 To use it you need to run powershell as administrator (press WIN+S keys and search for powershell then run as administrator)
 
-![]({{ site.baseurl }}/images/20210631_ps_admin.png)
+![]({{ site.baseurl }}/images/20210631_ps_admin.PNG)
 
 If this is the first time using chocolatey you need to install it first
 

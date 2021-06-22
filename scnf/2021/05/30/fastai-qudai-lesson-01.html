@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Fastai lesson 01 Questionnaire | Haidar Almubarak</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Fastai lesson 01 Questionnaire" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Answers to Fastai questionnaire in chapter 01" />
+<meta property="og:description" content="Answers to Fastai questionnaire in chapter 01" />
+<link rel="canonical" href="https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html" />
+<meta property="og:url" content="https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html" />
+<meta property="og:site_name" content="Haidar Almubarak" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"Fastai lesson 01 Questionnaire","dateModified":"2021-05-30T00:00:00-05:00","datePublished":"2021-05-30T00:00:00-05:00","description":"Answers to Fastai questionnaire in chapter 01","mainEntityOfPage":{"@type":"WebPage","@id":"https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html"},"@type":"BlogPosting","url":"https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://haidar13.github.io/feed.xml" title="Haidar Almubarak" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Fastai lesson 01 Questionnaire | Haidar Almubarak</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Fastai lesson 01 Questionnaire" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Answers to Fastai questionnaire in chapter 01" />
+<meta property="og:description" content="Answers to Fastai questionnaire in chapter 01" />
+<link rel="canonical" href="https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html" />
+<meta property="og:url" content="https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html" />
+<meta property="og:site_name" content="Haidar Almubarak" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"Fastai lesson 01 Questionnaire","dateModified":"2021-05-30T00:00:00-05:00","datePublished":"2021-05-30T00:00:00-05:00","description":"Answers to Fastai questionnaire in chapter 01","mainEntityOfPage":{"@type":"WebPage","@id":"https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html"},"@type":"BlogPosting","url":"https://haidar13.github.io/scnf/2021/05/30/fastai-qudai-lesson-01.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://haidar13.github.io/feed.xml" title="Haidar Almubarak" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Haidar Almubarak</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Fastai lesson 01 Questionnaire</h1><p class="page-description">Answers to Fastai questionnaire in chapter 01</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-30T00:00:00-05:00" itemprop="datePublished">
+        May 30, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#SCNF">SCNF</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>1- Do you need these for deep learning?</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Do you need?</th>
+      <th>T/F</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lots of math</td>
+      <td>T / <strong><em>F</em></strong></td>
+    </tr>
+    <tr>
+      <td>Lots of data</td>
+      <td>T / <strong><em>F</em></strong></td>
+    </tr>
+    <tr>
+      <td>Lots of expensive computers</td>
+      <td>T / <strong><em>F</em></strong></td>
+    </tr>
+    <tr>
+      <td>A PhD</td>
+      <td>T / <strong><em>F</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>2- Name five areas where deep learning is now the best in the world.</strong></p>
+
+<ul>
+  <li>Computer vision</li>
+  <li>Medicine</li>
+  <li>Biology</li>
+  <li>Natural Language processing</li>
+  <li>Recommender systems</li>
+</ul>
+
+<p><strong>3- What was the name of the first device that was based on the principle of the artificial neuron?</strong></p>
+
+<p>The Mark I Perceptron.</p>
+
+<p><strong>4- Based on the book of the same name, what are the requirements for parallel distributed processing (PDP)?</strong></p>
+
+<p>The PDP has 8 requirements:</p>
+
+<ul>
+  <li>A set of processing units</li>
+  <li>A state of activation</li>
+  <li>An output function for each of the units</li>
+  <li>A pattern of connectivity between the units</li>
+  <li>A propagation rule to propagate the activities patterns through the network connections</li>
+  <li>An activation rule to combine the inputs in the unit with the current state of the unit to produce an output</li>
+  <li>A learning rule to modify the patterns of connectivity based on experience</li>
+  <li>An environment for the system to operate.</li>
+</ul>
+
+<p><strong>5- What were the two theoretical misunderstandings that held back the field of neural networks?</strong></p>
+
+<p>The first issue is that a single layer cannot represent some functions like XOR but adding a second layer will help, people only consider the first half of this statement.</p>
+
+<p>The second issue: In theory adding a second layer can approximate any mathematical function but in practice they are too big and too slow to train.</p>
+
+<p><strong>6- What is a GPU?</strong></p>
+
+<p>It is a specialized processing unit that was intended to process and display images and videos then later it was repurposed to perform neural network computation because it handles multiple tasks in parallel which is present in most of the neural network operation</p>
+
+<p><strong>7- Open a notebook and execute a cell containing: 1+1. What happens?</strong></p>
+
+<p>The output <em>2</em> is printed in an output cell</p>
+
+<p><strong>8- Follow through each cell of the stripped version of the notebook for this chapter. Before executing each cell, guess what will happen.</strong></p>
+
+<p><em>Done</em></p>
+
+<p><strong>9- Complete the Jupyter Notebook online appendix.</strong></p>
+
+<p><em>Done</em></p>
+
+<p><strong>10- Why is it hard to use a traditional computer program to recognize images in a photo?</strong></p>
+
+<p>You need to manually write a lot of rules that might not be inclusive of all features that can be used to distinguish an image from the other</p>
+
+<p><strong>11- What did Samuel mean by “weight assignment”?</strong></p>
+
+<p>It means choosing a particular values for the program/model parameters that will improve the results</p>
+
+<p><strong>12- What term do we normally use in deep learning for what Samuel called “weights”?</strong></p>
+
+<p>The parameters</p>
+
+<p><strong>13- Draw a picture that summarizes Samuel’s view of a machine learning model.</strong></p>
+
+<p><img src="/images/20210530-samual-model.PNG" alt="" /></p>
+
+<p><strong>14- Why is it hard to understand why a deep learning model makes a particular prediction?</strong></p>
+
+<p>Because of the large interdependencies between the parameters that lead to a decision which makes it hard to pinpoint a single factor or set of factors that lead to the final decision.</p>
+
+<p><strong>15- What is the name of the theorem that shows that a neural network can solve any mathematical problem to any level of accuracy?</strong></p>
+
+<p>The universal approximation theorem.</p>
+
+<p><strong>16- What do you need in order to train a model?</strong></p>
+
+<ul>
+  <li>Input data</li>
+  <li>Labels (can be annotated by humans or automatically generated from the data for example with auto-encoders)</li>
+  <li>Loss function that can be used to compare the labels and the model output and how similar they are</li>
+  <li>A method to update the weights or parameter values; the most commonly used method is back-propagation.</li>
+</ul>
+
+<p><strong>17- How could a feedback loop impact the rollout of a predictive policing model?</strong></p>
+
+<p>The bias and prejudice of the data and the way models are designed will produced biased output and it will be accurate with regards to the input biased data; when the model is deployed, it will reinforce the bias in the communities used to produce the initial data. The updated data according to the system output if used to update the model will still be biased.</p>
+
+<p><strong>18- Do we always have to use 224×224-pixel images with the cat recognition model?</strong></p>
+
+<p>No, the early models used this aspect ratio and it stuck with many pre-trained models. Depending in the the type of layer between the last convolution/polling layer of the network and the fully connected layers it might be possible to use a different image size even if the model was trained with 224x224 image size.</p>
+
+<p><strong>19- What is the difference between classification and regression?</strong></p>
+
+<p>In classification the final output or label is discrete (categorical) whereas the regression output is continuos.</p>
+
+<p><strong>20- What is a validation set? What is a test set? Why do we need them?</strong></p>
+
+<p>Validation set is typically used to fine tune the hyper-parameters of the model; i.e. change the way we train the model or the size of the model then train on the training set the preform a test on the validation set after finishing the training we select the model based on the best performance on the validation set. The test set is not touched during the training or fine-tuning, it is only used after finalizing the model to check how it might perform on real world in unseen data.</p>
+
+<p><strong>21- What will fastai do if you don’t provide a validation set?</strong></p>
+
+<p>Fastai will split the data randomly into 80% training and 20% testing subsets</p>
+
+<p><strong>22- Can we always use a random sample for a validation set? Why or why not?</strong></p>
+
+<p>No, for example if we have time series or time dependent data we cannot randomly select data from the middle of the series</p>
+
+<p><strong>23- What is overfitting? Provide an example.</strong></p>
+
+<p>Overfitting occurs when the model memorizes the training data and does not generalize to unseen data. for example a voice to text model that can only transcribe a voice that has been used in the training and any slight modification to the voice can cripple the system.</p>
+
+<p><strong>24- What is a metric? How does it differ from “loss”?</strong></p>
+
+<p>The loss is used to adjust the model parameters and it measure how close the training labels to the predicted labels. The metric on the other hand, is related to the problem that we are trying to solve for example in classification problem it can be the accuracy or F1 score, in segmentation it can be dice or intersection over union score, for regression problem we can use the mean square error</p>
+
+<p><strong>25- How can pretrained models help?</strong></p>
+
+<p>Pre-trained models learn the low level features that are common in many tasks this can help is in fine-tuning the models by updating the parameters used for the high-level features at hand which can reduce the training time and the amount of data needed</p>
+
+<p><strong>26- What is the “head” of a model?</strong></p>
+
+<p>The head of the model is the last couple of layers of a neural network that are usually trained during fine-tuning</p>
+
+<p><strong>27- What kinds of features do the early layers of a CNN find? How about the later layers?</strong></p>
+
+<p>Early layers find low level features such as lines and edges. Later layers try to find high level features like eyes and mouth in case of face detection.</p>
+
+<p><strong>28- Are image models only useful for photos?</strong></p>
+
+<p>No, it can be used in other modalities for example 1D sound signal can be converted into 2D spectrogram then used as input to image models.</p>
+
+<p><strong>29- What is an “architecture”?</strong></p>
+
+<p>It is the number of layers, the type of layers, the order of the layers, and the interconnection between them.</p>
+
+<p><strong>30- What is segmentation?</strong></p>
+
+<p>Assigning a class to each pixel in the image, each class can represent a type of object.</p>
+
+<p><strong>31- What is <code class="highlighter-rouge">y_range</code> used for? When do we need it?</strong></p>
+
+<p>It is used to scale the output of the network sigmoid layer</p>
+
+<p><strong>32- What are “hyperparameters”?</strong></p>
+
+<p>They are parameters the are typically used during the training of the model to control how the model is being trained but not used in the final trained model for inference.</p>
+
+<p><strong>33- What’s the best way to avoid failures when using AI in an organization?</strong></p>
+
+<p>First make sure the problem at hand is clearly defined and that it needs AI and the upper management support the project, then collect a valid dataset for training. After collecting the dataset try different models and ways of addressing the problem and split your data into training/validation/testing to make sure the model is robust. After deploying the model make sure to update it regularly to avoid the data distribution shift and the organizational priorities and operations shift.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Haidar13/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/scnf/2021/05/30/fastai-qudai-lesson-01.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Simple thoughts from a complex creature.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/haidar13" title="haidar13"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/halmubarak" title="halmubarak"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

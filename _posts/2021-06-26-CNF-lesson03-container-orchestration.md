@@ -15,7 +15,11 @@ After developing an application it is time to package it and deploy it. One of t
 
 
 <figure align = "center">
+<<<<<<< HEAD
  <img src="{{ site.baseurl }}/images/20210631_ps_admin.PNG" alt="VM" />
+=======
+ <img src="images/20210631_ps_admin.PNG" alt="VM" />
+>>>>>>> ec09752f5cf53a9a43ddac08698b7575054900b7
  <figcaption>
  This is powershell admin
  </figcaption>

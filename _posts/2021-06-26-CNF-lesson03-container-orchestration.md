@@ -15,8 +15,17 @@ After developing an application it is time to package it and deploy it. One of t
 
 
 <figure align = "center">
- <img src="{{ site.baseurl }}/images/20210631_ps_admin.PNG" alt="VM" />
+ <img src="{{ site.baseurl }}/images/scnf/muli-apps-vm.png" alt="VM" />
  <figcaption>
- This is powershell admin
+ Figure 1: Application in virtual machines <small>source: Udacity SCNF course</small>
+ </figcaption>
+</figure>
+
+Then we move into containerized applications 
+
+<figure align = "center">
+ <img src="{{ site.baseurl }}/images/scnf/containerized-apps.png" alt="containers" />
+ <figcaption>
+ Figure 2: Application running in containers <small>source: Udacity SCNF course</small>
  </figcaption>
 </figure>
